@@ -1,6 +1,7 @@
 import os, requests, signal, sys
 from colorama import Fore
-import random 
+import random
+import math
 
 def exit_handler(signal, frame):
     os.system('cls' if os.name == 'nt' else 'clear')
